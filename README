@@ -1,0 +1,14 @@
+# Gotoh / Local / Freeshift with 8 vector  #
+
+SSSE3 version of Gotoh (Global/Local/Freeshift) 
+
+## input  ##
+Parameter:
+  -seqlib         path to sequence libary
+  -pairs          path to pairs file
+  -m              matrixname (Default dayhoff)
+  -go             gapopen (Default -12) as positiv number
+  -ge             gapextend (Default -1) as positiv number
+  -mode           local|global|freeshift (Default freeshift)
+  -printali       print the Alignment
+  -check          checks Scores based on the alignments(will print ali to)
